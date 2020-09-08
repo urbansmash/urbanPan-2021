@@ -418,13 +418,12 @@
                                     <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="FUY-tN-h8c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9V-B5-XhV" userLabel="Documents">
-                                <rect key="frame" x="496" y="692" width="76" height="62"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9V-B5-XhV" userLabel="Documents">
+                                <rect key="frame" x="466" y="699" width="123" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="68"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" backgroundImage="folder" catalog="system">
+                                <state key="normal" image="Black &amp; Gold Music Folder Icon" backgroundImage="Black &amp; Gold Music Folder Icon">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -473,11 +472,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikq-B6-fzv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-727" y="-183"/>
+            <point key="canvasLocation" x="-727.33812949640287" y="-183.45323741007195"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Black &amp; Gold Music Folder Icon" width="512" height="512"/>
         <image name="Urban Pan (colour)" width="1344" height="1008"/>
-        <image name="folder" catalog="system" width="128" height="95"/>
     </resources>
 </document>

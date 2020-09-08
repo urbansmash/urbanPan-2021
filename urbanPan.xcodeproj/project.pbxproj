@@ -17,7 +17,6 @@
 		3738FC8A25068F2B005679D6 /* AudioKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */; };
 		3738FC8B25068F2B005679D6 /* AudioKitUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3775B03B2507CD3C009A8BCC /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775B0392507CD3A009A8BCC /* DocumentViewController.swift */; };
-		3775B03C2507CD3C009A8BCC /* UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3775B03A2507CD3B009A8BCC /* UI.storyboard */; };
 		3789EE8E23176BF9001F3188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789EE8D23176BF9001F3188 /* AppDelegate.swift */; };
 		3789EE9023176BF9001F3188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789EE8F23176BF9001F3188 /* ViewController.swift */; };
 		3789EE9323176BF9001F3188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3789EE9123176BF9001F3188 /* Main.storyboard */; };
@@ -51,7 +50,6 @@
 		3738FC8625068F2B005679D6 /* AudioKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AudioKit.xcframework; sourceTree = "<group>"; };
 		3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AudioKitUI.xcframework; sourceTree = "<group>"; };
 		3775B0392507CD3A009A8BCC /* DocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		3775B03A2507CD3B009A8BCC /* UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UI.storyboard; sourceTree = "<group>"; };
 		3789EE8A23176BF9001F3188 /* urbanPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = urbanPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3789EE8D23176BF9001F3188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3789EE8F23176BF9001F3188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				076A152C24910DCB00EC310D /* Document.swift */,
 				378D9D8224A1085400C8C040 /* 000_urbanPan.sfz */,
 				3775B0392507CD3A009A8BCC /* DocumentViewController.swift */,
-				3775B03A2507CD3B009A8BCC /* UI.storyboard */,
 				3789EE8F23176BF9001F3188 /* ViewController.swift */,
 				07EA7719232A8CAA002E298D /* urbanPan.sf2 */,
 				3789EE9123176BF9001F3188 /* Main.storyboard */,
@@ -189,7 +186,6 @@
 			files = (
 				378D9D8324A1085400C8C040 /* 000_urbanPan.sfz in Resources */,
 				07EA771A232A8CAA002E298D /* urbanPan.sf2 in Resources */,
-				3775B03C2507CD3C009A8BCC /* UI.storyboard in Resources */,
 				3789EE9823176C1E001F3188 /* LaunchScreen.storyboard in Resources */,
 				3789EE9523176C1D001F3188 /* Assets.xcassets in Resources */,
 				3789EE9323176BF9001F3188 /* Main.storyboard in Resources */,
