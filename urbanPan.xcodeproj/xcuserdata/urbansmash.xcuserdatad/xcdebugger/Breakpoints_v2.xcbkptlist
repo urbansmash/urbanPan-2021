@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0C751C81-0AD6-4DAC-B471-1631E50C3CCB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FA1DFCF-A8C8-4226-BD6C-7BE73E72E703"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "urbanPan/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "urbanPan/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 76c2e4de22d3e67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.button56.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 23d4df1c12536d53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.button56.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 9844e2e2323f9d22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.button56.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 188792689399ac80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.button56.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 1db1158cd50618bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; urbanPan.ViewController"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "8455E936-7401-4E86-A4CB-6A6B474D3423 - 44b60a3cfaf79f51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "urbanPan.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;urbanPan.ViewController&gt;"
+                  moduleName = "urbanPan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/urbansmash/Documents/Play%20it%20on%20Pan/Urban%20Pan%20App/UrbanPan/urbanPan%202020/urbanPan/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "760">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4C90DC8-515D-4B08-8850-D8FB7B717E8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "urbanPan/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

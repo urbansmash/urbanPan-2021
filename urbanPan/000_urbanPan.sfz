@@ -1,0 +1,876 @@
+/*
+// **********************************************************************
+// Converted with SF22SFZ Converter v1.616
+// Copyright Nov 16 2012 , Plogue Art et Technologie, Inc
+// **********************************************************************
+// Conversion Date: Tue Sep 10 21:49:37 2019
+// **********************************************************************
+// Parent file    : /Users/evanmurray/Downloads/urbanPan.sf2
+// Soundfont      : 2.1
+// Internal Name  : urbanPan
+// Optimised for  : EMU8000
+// Intendend for  : urbanPan (Caribbean Steelpan)
+// Editor Used    : Polyphone
+// Sound Engineer : UrbanSmash
+// Comments       : Double Second (Alto) Steelpan Drum Samples  
+32 notes 
+F3 - C6
+
+Sampled on Friday 30 August 2019 
+between 3am-4am BST (GMT+1) ...because it's silent at night! 
+
+Microphone: Fifine Cardiod Condenser 
+Mic Placement: Floor centred under pans (between C# and E) 
+Mic Stand: Small desktop stand on rug
+
+Sound treatment: 12 acoustic foam tiles on ceiling above pans and 9 around walls (tiles 30cm x 30cm) 
+
+Mallet strikes...
+
+0 = very soft (pp)
+1 = soft/medium (mp)
+2 = loud (f)
+3 = very loud (ff) 
+// Creation Date  : Friday 30 August 2019, 03:03:03
+// Copyright      : Play it on Pan
+*/
+
+<control>
+ hint_ram_based=1
+ set_cc1=0     //Power-on Default Values: Modulation
+ set_cc11=127  //Power-on Default Values: Expression
+ set_cc64=0    //Power-on Default Values: Sustain Pedal
+
+<global>
+ //8.4.2 MIDI Note-On Velocity to Filter Cutoff
+ //8.4.8 MIDI Continuous Controller 91 to Reverb Effects Send
+ //8.4.9 MIDI Continuous Controller 93 to Chorus Effects Send
+ //8.4.10 MIDI Pitch Wheel to Initial Pitch Controlled by MIDI Pitch Wheel Sensitivity
+ lfo06_wave=0
+ lfo06_pitch=0 lfo06_pitch_oncc129=50 lfo06_pitch_oncc1=50
+ lfo06_freq=8.176
+
+ amplitude_oncc11=100 amplitude_curvecc11=7
+
+
+<master>
+ lokey=36 hikey=96
+<group>
+ ampeg_hold=3.00008
+ ampeg_decay=4.99909
+ ampeg_sustain=31.6228
+ ampeg_release=6.00016
+<region>
+ key=69
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-A4
+ pitch_keycenter=69 tune=0 offset=7508485 end=7678453
+ loop_start=7508485 loop_end=7678451
+ sample=0-A4.wav
+<region>
+ key=81
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-A5
+ pitch_keycenter=81 tune=-15 offset=13892643 end=14032975
+ loop_start=13892643 loop_end=14032973
+sample=0-A5.wav
+<region>
+ key=70
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-AS4
+ pitch_keycenter=70 tune=4 offset=7875341 end=8040020
+ loop_start=7875341 loop_end=8040018
+sample=0-AS4.wav
+<region>
+ key=82
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-AS5
+ pitch_keycenter=82 tune=-1 offset=14402369 end=14565020
+ loop_start=14402369 loop_end=14565018
+sample=0-AS5.wav
+<region>
+ key=59
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-B3
+ pitch_keycenter=59 tune=4 offset=15867808 end=16022937
+ loop_start=15867808 loop_end=16022935
+sample=0-B3.wav
+<region>
+ key=75
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-DS5
+ pitch_keycenter=75 tune=0 offset=10579584 end=10712016
+ loop_start=10579584 loop_end=10712014
+sample=0-DS5.wav
+<region>
+ key=76
+ lovel=0 hivel=63
+ pan=0
+ region_label=0-E5
+ pitch_keycenter=76 tune=-10 offset=11146495 end=11325689
+ loop_start=11146495 loop_end=11325687
+sample=0-E5.wav
+<region>
+ key=78
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-FS5
+ pitch_keycenter=78 tune=0 offset=12253411 end=12437024
+ loop_start=12253411 loop_end=12437022
+sample=0-FS5.wav
+<region>
+ key=79
+ lovel=0 hivel=63
+ pan=0
+ region_label=0-G5
+ pitch_keycenter=79 tune=1 offset=12822864 end=12976498
+ loop_start=12822864 loop_end=12976496
+sample=0-G5.wav
+<region>
+ key=56
+ lovel=0 hivel=40
+ pan=0
+ region_label=0-GS3
+ pitch_keycenter=56 tune=-8 offset=1490866 end=1778641
+ loop_start=1490866 loop_end=1778639
+sample=0-GS3.wav
+<region>
+ key=57
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-A3
+ pitch_keycenter=57 tune=5 offset=2087065 end=2265005
+ loop_start=2087065 loop_end=2265003
+sample=1-A3.wav
+<region>
+ key=69
+ lovel=41 hivel=99
+ pan=0
+ region_label=1-A4
+ pitch_keycenter=69 tune=0 offset=7107548 end=7282822
+ loop_start=7107548 loop_end=7282820
+sample=1-A4.wav
+<region>
+ key=81
+ lovel=41 hivel=63
+ pan=0
+ region_label=1-A5
+ pitch_keycenter=81 tune=0 offset=13714653 end=13892597
+ loop_start=13714653 loop_end=13892595
+sample=1-A5.wav
+<region>
+ key=58
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-AS3
+ pitch_keycenter=58 tune=2 offset=2487201 end=2664785
+ loop_start=2487201 loop_end=2664783
+sample=1-AS3.wav
+<region>
+ key=70
+ lovel=41 hivel=99
+ pan=0
+ region_label=1-AS4
+ pitch_keycenter=70 tune=2 offset=7678499 end=7875295
+ loop_start=7678499 loop_end=7875293
+sample=1-AS4.wav
+<region>
+ key=82
+ lovel=41 hivel=99
+ pan=0
+ region_label=1-AS5
+ pitch_keycenter=82 tune=-6 offset=14234141 end=14402323
+ loop_start=14234141 loop_end=14402321
+sample=1-AS5.wav
+<region>
+ key=59
+ lovel=41 hivel=63
+ pan=0
+ region_label=1-B3
+ pitch_keycenter=59 tune=0 offset=3321020 end=3497751
+ loop_start=3321020 loop_end=3497749
+sample=1-B3.wav
+<region>
+ key=71
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-B4
+ pitch_keycenter=71 tune=5 offset=8293879 end=8494962
+ loop_start=8293879 loop_end=8494960
+sample=1-B4.wav
+<region>
+ key=83
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-B5
+ pitch_keycenter=83 tune=0 offset=15045734 end=15232574
+ loop_start=15045734 loop_end=15232572
+sample=1-B5.wav
+<region>
+ key=60
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-C4
+ pitch_keycenter=60 tune=3 offset=3497797 end=3675150
+ loop_start=3497797 loop_end=3675148
+sample=1-C4.wav
+<region>
+ key=72
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-C5
+ pitch_keycenter=72 tune=0 offset=8997623 end=9204896
+ loop_start=8997623 loop_end=9204894
+sample=1-C5.wav
+<region>
+ lokey=84 hikey=127
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-C6
+ pitch_keycenter=84 tune=0 offset=15686762 end=15867762
+ loop_start=15686762 loop_end=15867760
+sample=1-C6.wav
+<region>
+ key=61
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-CS4
+ pitch_keycenter=61 tune=0 offset=3941658 end=4118781
+ loop_start=3941658 loop_end=4118779
+sample=1-CS4.wav
+<region>
+ key=73
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-CS5
+ pitch_keycenter=73 tune=0 offset=9204942 end=9402057
+ loop_start=9204942 loop_end=9402055
+sample=1-CS5.wav
+<region>
+ key=62
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-D4
+ pitch_keycenter=62 tune=0 offset=4297693 end=4475978
+ loop_start=4297693 loop_end=4475976
+sample=1-D4.wav
+<region>
+ key=74
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-D5
+ pitch_keycenter=74 tune=0 offset=9648123 end=9842383
+ loop_start=9648123 loop_end=9842381
+sample=1-D5.wav
+<region>
+ key=63
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-DS4
+ pitch_keycenter=63 tune=0 offset=4741858 end=4918693
+ loop_start=4741858 loop_end=4918691
+sample=1-DS4.wav
+<region>
+ key=75
+ lovel=41 hivel=99
+ pan=0
+ region_label=1-DS5
+ pitch_keycenter=75 tune=0 offset=10420158 end=10579538
+ loop_start=10420158 loop_end=10579536
+sample=1-DS5.wav
+<region>
+ key=64
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-E4
+ pitch_keycenter=64 tune=-11 offset=5161280 end=5338789
+ loop_start=5161280 loop_end=5338787
+sample=1-E4.wav
+<region>
+ key=76
+ lovel=41 hivel=109
+ pan=0
+ region_label=1-E5
+ pitch_keycenter=76 tune=-10 offset=10933143 end=11146449
+ loop_start=10933143 loop_end=11146447
+sample=1-E5.wav
+<region>
+ lokey=0 hikey=53
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-F3
+ pitch_keycenter=53 tune=-4 offset=0 end=118771
+ loop_start=0 loop_end=118769
+sample=1-F3.wav
+<region>
+ key=65
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-F4
+ pitch_keycenter=65 tune=-3 offset=5560411 end=5737873
+ loop_start=5560411 loop_end=5737871
+sample=1-F4.wav
+<region>
+ key=77
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-F5
+ pitch_keycenter=77 tune=0 offset=11325735 end=11565430
+ loop_start=11325735 loop_end=11565428
+sample=1-F5.wav
+<region>
+ key=54
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-FS3
+ pitch_keycenter=54 tune=-7 offset=384113 end=672104
+ loop_start=384113 loop_end=672102
+sample=1-FS3.wav
+<region>
+ key=66
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-FS4
+ pitch_keycenter=66 tune=0 offset=5936323 end=6113349
+ loop_start=5936323 loop_end=6113347
+sample=1-FS4.wav
+<region>
+ key=78
+ lovel=41 hivel=63
+ pan=0
+ region_label=1-FS5
+ pitch_keycenter=78 tune=-5 offset=12054789 end=12253365
+ loop_start=12054789 loop_end=12253363
+sample=1-FS5.wav
+<region>
+ key=55
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-G3
+ pitch_keycenter=55 tune=0 offset=893242 end=1048284
+ loop_start=893242 loop_end=1048282
+sample=1-G3.wav
+<region>
+ key=67
+ lovel=0 hivel=99
+ pan=0
+ region_label=1-G4
+ pitch_keycenter=67 tune=0 offset=6354450 end=6533207
+ loop_start=6354450 loop_end=6533205
+sample=1-G4.wav
+<region>
+ key=79
+ lovel=64 hivel=99
+ pan=0
+ region_label=1-G5
+ pitch_keycenter=79 tune=0 offset=12625499 end=12822818
+ loop_start=12625499 loop_end=12822816
+sample=1-G5.wav
+<region>
+ key=56
+ lovel=41 hivel=63
+ pan=0
+ region_label=1-GS3
+ pitch_keycenter=56 tune=-9 offset=1225294 end=1490820
+ loop_start=1225294 loop_end=1490818
+sample=1-GS3.wav
+<region>
+ key=68
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-GS4
+ pitch_keycenter=68 tune=0 offset=6953066 end=7107502
+ loop_start=6953066 loop_end=7107500
+sample=1-GS4.wav
+<region>
+ key=80
+ lovel=0 hivel=63
+ pan=0
+ region_label=1-GS5
+ pitch_keycenter=80 tune=0 offset=13338733 end=13517197
+ loop_start=13338733 loop_end=13517195
+sample=1-GS5.wav
+<region>
+ key=57
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-A3
+ pitch_keycenter=57 tune=0 offset=2265051 end=2487155
+ loop_start=2265051 loop_end=2487153
+sample=2-A3.wav
+<region>
+ key=69
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-A4
+ pitch_keycenter=69 tune=0 offset=7282868 end=7508439
+ loop_start=7282868 loop_end=7508437
+sample=2-A4.wav
+<region>
+ key=81
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-A5
+ pitch_keycenter=81 tune=0 offset=13517243 end=13714607
+ loop_start=13517243 loop_end=13714605
+sample=2-A5.wav
+<region>
+ key=58
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-AS3
+ pitch_keycenter=58 tune=0 offset=2664831 end=2885702
+ loop_start=2664831 loop_end=2885700
+sample=2-AS3.wav
+<region>
+ key=70
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-AS4
+ pitch_keycenter=70 tune=0 offset=8040066 end=8293833
+ loop_start=8040066 loop_end=8293831
+sample=2-AS4.wav
+<region>
+ key=82
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-AS5
+ pitch_keycenter=82 tune=0 offset=14033021 end=14234095
+ loop_start=14033021 loop_end=14234093
+sample=2-AS5.wav
+<region>
+ key=59
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-B3
+ pitch_keycenter=59 tune=0 offset=2885748 end=3320974
+ loop_start=2885748 loop_end=3320972
+sample=2-B3.wav
+<region>
+ key=71
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-B4
+ pitch_keycenter=71 tune=0 offset=8495008 end=8719529
+ loop_start=8495008 loop_end=8719527
+sample=2-B4.wav
+<region>
+ key=83
+ lovel=64 hivel=99
+ pan=0
+ region_label=2-B5
+ pitch_keycenter=83 tune=0 offset=14827052 end=15045688
+ loop_start=14827052 loop_end=15045686
+sample=2-B5.wav
+<region>
+ key=60
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-C4
+ pitch_keycenter=60 tune=0 offset=3675196 end=3941612
+ loop_start=3675196 loop_end=3941610
+sample=2-C4.wav
+<region>
+ key=72
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-C5
+ pitch_keycenter=72 tune=0 offset=8719575 end=8997577
+ loop_start=8719575 loop_end=8997575
+sample=2-C5.wav
+<region>
+ lokey=84 hikey=127
+ lovel=64 hivel=99
+ pan=0
+ region_label=2-C6
+ pitch_keycenter=84 tune=0 offset=15466907 end=15686716
+ loop_start=15466907 loop_end=15686714
+sample=2-C6.wav
+<region>
+ key=61
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-CS4
+ pitch_keycenter=61 tune=0 offset=4118827 end=4297647
+ loop_start=4118827 loop_end=4297645
+sample=2-CS4.wav
+<region>
+ key=73
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-CS5
+ pitch_keycenter=73 tune=0 offset=9402103 end=9648077
+ loop_start=9402103 loop_end=9648075
+sample=2-CS5.wav
+<region>
+ key=62
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-D4
+ pitch_keycenter=62 tune=0 offset=4476024 end=4741812
+ loop_start=4476024 loop_end=4741810
+sample=2-D4.wav
+<region>
+ key=74
+ lovel=64 hivel=109
+ pan=0
+ region_label=2-D5
+ pitch_keycenter=74 tune=0 offset=9842429 end=10118363
+ loop_start=9842429 loop_end=10118361
+sample=2-D5.wav
+<region>
+ key=63
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-DS4
+ pitch_keycenter=63 tune=0 offset=4918739 end=5161234
+ loop_start=4918739 loop_end=5161232
+sample=2-DS4.wav
+<region>
+ key=75
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-DS5
+ pitch_keycenter=75 tune=0 offset=16022983 end=16223800
+ loop_start=16022983 loop_end=16223798
+sample=2-DS5.wav
+<region>
+ key=64
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-E4
+ pitch_keycenter=64 tune=0 offset=5338835 end=5560365
+ loop_start=5338835 loop_end=5560363
+sample=2-E4.wav
+<region>
+ key=76
+ lovel=110 hivel=127
+ pan=0
+ region_label=2-E5
+ pitch_keycenter=76 tune=0 offset=10712062 end=10933097
+ loop_start=10712062 loop_end=10933095
+sample=2-E5.wav
+<region>
+ lokey=0 hikey=53
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-F3
+ pitch_keycenter=53 tune=-10 offset=118817 end=384067
+ loop_start=118817 loop_end=384065
+sample=2-F3.wav
+<region>
+ key=65
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-F4
+ pitch_keycenter=65 tune=0 offset=5737919 end=5936277
+ loop_start=5737919 loop_end=5936275
+sample=2-F4.wav
+<region>
+ key=77
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-F5
+ pitch_keycenter=77 tune=0 offset=11565476 end=11786965
+ loop_start=11565476 loop_end=11786963
+sample=2-F5.wav
+<region>
+ key=54
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-FS3
+ pitch_keycenter=54 tune=0 offset=672150 end=893196
+ loop_start=672150 loop_end=893194
+sample=2-FS3.wav
+<region>
+ key=66
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-FS4
+ pitch_keycenter=66 tune=0 offset=6113395 end=6354404
+ loop_start=6113395 loop_end=6354402
+sample=2-FS4.wav
+<region>
+ key=78
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-FS5
+ pitch_keycenter=78 tune=0 offset=11787011 end=12054743
+ loop_start=11787011 loop_end=12054741
+sample=2-FS5.wav
+<region>
+ key=55
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-G3
+ pitch_keycenter=55 tune=0 offset=1048330 end=1225248
+ loop_start=1048330 loop_end=1225246
+sample=2-G3.wav
+<region>
+ key=67
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-G4
+ pitch_keycenter=67 tune=0 offset=6533253 end=6737909
+ loop_start=6533253 loop_end=6737907
+sample=2-G4.wav
+<region>
+ key=79
+ lovel=100 hivel=127
+ pan=0
+ region_label=2-G5
+ pitch_keycenter=79 tune=0 offset=12437070 end=12625453
+ loop_start=12437070 loop_end=12625451
+sample=2-G5.wav
+<region>
+ key=56
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-GS3
+ pitch_keycenter=56 tune=-19 offset=1778687 end=2087019
+ loop_start=1778687 loop_end=2087017
+sample=2-GS3.wav
+<region>
+ key=68
+ lovel=64 hivel=127
+ pan=0
+ region_label=2-GS4
+ pitch_keycenter=68 tune=-5 offset=6737955 end=6953020
+ loop_start=6737955 loop_end=6953018
+sample=2-GS4.wav
+<region>
+ key=80
+ lovel=64 hivel=99
+ pan=0
+ region_label=2-GS5
+ pitch_keycenter=80 tune=0 offset=13153215 end=13338687
+ loop_start=13153215 loop_end=13338685
+sample=2-GS5.wav
+<region>
+ key=83
+ lovel=100 hivel=127
+ pan=0
+ region_label=3-B5
+ pitch_keycenter=83 tune=20 offset=14565066 end=14827006
+ loop_start=14565066 loop_end=14827004
+sample=3-B5.wav
+<region>
+ lokey=84 hikey=127
+ lovel=100 hivel=127
+ pan=0
+ region_label=3-C6
+ pitch_keycenter=84 tune=0 offset=15232620 end=15466861
+ loop_start=15232620 loop_end=15466859
+sample=3-C6.wav
+<region>
+ key=74
+ lovel=110 hivel=127
+ pan=0
+ region_label=3-D5
+ pitch_keycenter=74 tune=9 offset=10118409 end=10420112
+ loop_start=10118409 loop_end=10420110
+sample=3-D5.wav
+<region>
+ key=80
+ lovel=100 hivel=127
+ pan=0
+ region_label=3-GS5
+ pitch_keycenter=80 tune=0 offset=12976544 end=13153169
+ loop_start=12976544 loop_end=13153167
+sample=3-GS5.wav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<curve>//7 GMCurves::ConvaveLin
+ v000=0            v001=6.20001e-05  v002=0.000248     v003=0.000558001  v004=0.000992002 
+ v005=0.00155      v006=0.002232     v007=0.00303801   v008=0.00396801   v009=0.00502201  
+ v010=0.00620001   v011=0.00750202   v012=0.00892802   v013=0.010478     v014=0.012152    
+ v015=0.01395      v016=0.015872     v017=0.017918     v018=0.020088     v019=0.022382    
+ v020=0.0248       v021=0.0273421    v022=0.0300081    v023=0.0327981    v024=0.0357121   
+ v025=0.0387501    v026=0.0419121    v027=0.0451981    v028=0.0486081    v029=0.0521421   
+ v030=0.0558001    v031=0.0595821    v032=0.0634881    v033=0.0675181    v034=0.0716721   
+ v035=0.0759502    v036=0.0803522    v037=0.0848782    v038=0.0895282    v039=0.0943022   
+ v040=0.0992002    v041=0.104222     v042=0.109368     v043=0.114638     v044=0.120032    
+ v045=0.12555      v046=0.131192     v047=0.136958     v048=0.142848     v049=0.148862    
+ v050=0.155        v051=0.161262     v052=0.167648     v053=0.174158     v054=0.180792    
+ v055=0.18755      v056=0.194432     v057=0.201438     v058=0.208568     v059=0.215822    
+ v060=0.2232       v061=0.230702     v062=0.238328     v063=0.246078     v064=0.253953    
+ v065=0.261951     v066=0.270073     v067=0.278319     v068=0.286689     v069=0.295183    
+ v070=0.303801     v071=0.312543     v072=0.321409     v073=0.330399     v074=0.339513    
+ v075=0.348751     v076=0.358113     v077=0.367599     v078=0.377209     v079=0.386943    
+ v080=0.396801     v081=0.406783     v082=0.416889     v083=0.427119     v084=0.437473    
+ v085=0.447951     v086=0.458553     v087=0.469279     v088=0.480129     v089=0.491103    
+ v090=0.502201     v091=0.513423     v092=0.524769     v093=0.536239     v094=0.547833    
+ v095=0.559551     v096=0.571393     v097=0.583359     v098=0.595449     v099=0.607663    
+ v100=0.620001     v101=0.632463     v102=0.645049     v103=0.657759     v104=0.670593    
+ v105=0.683551     v106=0.696633     v107=0.709839     v108=0.723169     v109=0.736623    
+ v110=0.750202     v111=0.763904     v112=0.77773      v113=0.79168      v114=0.805754    
+ v115=0.819952     v116=0.834274     v117=0.84872      v118=0.86329      v119=0.877984    
+ v120=0.892802     v121=0.907744     v122=0.92281      v123=0.938        v124=0.953314    
+ v125=0.968752     v126=0.984314     v127=1           
+
