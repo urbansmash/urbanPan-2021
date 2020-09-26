@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075B02F7251EE11B00F1F508 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 075B02F6251EE11B00F1F508 /* AudioKit */; };
 		076A152B24910B5400EC310D /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A152A24910B5400EC310D /* DocumentBrowserViewController.swift */; };
 		076A152D24910DCB00EC310D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A152C24910DCB00EC310D /* Document.swift */; };
 		076A153324913A9300EC310D /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A153224913A9300EC310D /* Conductor.swift */; };
 		077AC65C2491C775006DA5B4 /* AKSampler+moreSFZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AC65B2491C775006DA5B4 /* AKSampler+moreSFZ.swift */; };
 		07EA771A232A8CAA002E298D /* urbanPan.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 07EA7719232A8CAA002E298D /* urbanPan.sf2 */; };
-		3738FC8825068F2B005679D6 /* AudioKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8625068F2B005679D6 /* AudioKit.xcframework */; };
-		3738FC8925068F2B005679D6 /* AudioKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8625068F2B005679D6 /* AudioKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3738FC8A25068F2B005679D6 /* AudioKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */; };
-		3738FC8B25068F2B005679D6 /* AudioKitUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3775B03B2507CD3C009A8BCC /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775B0392507CD3A009A8BCC /* DocumentViewController.swift */; };
 		3789EE8E23176BF9001F3188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789EE8D23176BF9001F3188 /* AppDelegate.swift */; };
 		3789EE9023176BF9001F3188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789EE8F23176BF9001F3188 /* ViewController.swift */; };
@@ -32,8 +29,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3738FC8925068F2B005679D6 /* AudioKit.xcframework in Embed Frameworks */,
-				3738FC8B25068F2B005679D6 /* AudioKitUI.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,8 +42,6 @@
 		077AC65B2491C775006DA5B4 /* AKSampler+moreSFZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AKSampler+moreSFZ.swift"; sourceTree = "<group>"; };
 		07806AE4233BE56A00C0F70F /* urbanPan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = urbanPan.entitlements; sourceTree = "<group>"; };
 		07EA7719232A8CAA002E298D /* urbanPan.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = urbanPan.sf2; sourceTree = "<group>"; };
-		3738FC8625068F2B005679D6 /* AudioKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AudioKit.xcframework; sourceTree = "<group>"; };
-		3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AudioKitUI.xcframework; sourceTree = "<group>"; };
 		3775B0392507CD3A009A8BCC /* DocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
 		3789EE8A23176BF9001F3188 /* urbanPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = urbanPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3789EE8D23176BF9001F3188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,8 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3738FC8825068F2B005679D6 /* AudioKit.xcframework in Frameworks */,
-				3738FC8A25068F2B005679D6 /* AudioKitUI.xcframework in Frameworks */,
+				075B02F7251EE11B00F1F508 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +68,6 @@
 		07806AE5233BE56A00C0F70F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3738FC8625068F2B005679D6 /* AudioKit.xcframework */,
-				3738FC8725068F2B005679D6 /* AudioKitUI.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +127,9 @@
 			dependencies = (
 			);
 			name = urbanPan;
+			packageProductDependencies = (
+				075B02F6251EE11B00F1F508 /* AudioKit */,
+			);
 			productName = urbanPan;
 			productReference = 3789EE8A23176BF9001F3188 /* urbanPan.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 3789EE8123176BF9001F3188;
+			packageReferences = (
+				075B02F5251EE11B00F1F508 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 3789EE8B23176BF9001F3188 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -454,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		075B02F5251EE11B00F1F508 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				branch = "v5-develop";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		075B02F6251EE11B00F1F508 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 075B02F5251EE11B00F1F508 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3789EE8223176BF9001F3188 /* Project object */;
 }
