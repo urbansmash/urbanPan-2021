@@ -11,7 +11,6 @@
 		076A152B24910B5400EC310D /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A152A24910B5400EC310D /* DocumentBrowserViewController.swift */; };
 		076A152D24910DCB00EC310D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A152C24910DCB00EC310D /* Document.swift */; };
 		076A153324913A9300EC310D /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A153224913A9300EC310D /* Conductor.swift */; };
-		077AC65C2491C775006DA5B4 /* AKSampler+moreSFZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AC65B2491C775006DA5B4 /* AKSampler+moreSFZ.swift */; };
 		07EA771A232A8CAA002E298D /* urbanPan.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 07EA7719232A8CAA002E298D /* urbanPan.sf2 */; };
 		3775B03B2507CD3C009A8BCC /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775B0392507CD3A009A8BCC /* DocumentViewController.swift */; };
 		3789EE8E23176BF9001F3188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789EE8D23176BF9001F3188 /* AppDelegate.swift */; };
@@ -39,7 +38,6 @@
 		076A152A24910B5400EC310D /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		076A152C24910DCB00EC310D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		076A153224913A9300EC310D /* Conductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
-		077AC65B2491C775006DA5B4 /* AKSampler+moreSFZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AKSampler+moreSFZ.swift"; sourceTree = "<group>"; };
 		07806AE4233BE56A00C0F70F /* urbanPan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = urbanPan.entitlements; sourceTree = "<group>"; };
 		07EA7719232A8CAA002E298D /* urbanPan.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = urbanPan.sf2; sourceTree = "<group>"; };
 		3775B0392507CD3A009A8BCC /* DocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 				07806AE4233BE56A00C0F70F /* urbanPan.entitlements */,
 				3789EE8D23176BF9001F3188 /* AppDelegate.swift */,
 				076A152A24910B5400EC310D /* DocumentBrowserViewController.swift */,
-				077AC65B2491C775006DA5B4 /* AKSampler+moreSFZ.swift */,
 				076A153224913A9300EC310D /* Conductor.swift */,
 				076A152C24910DCB00EC310D /* Document.swift */,
 				378D9D8224A1085400C8C040 /* 000_urbanPan.sfz */,
@@ -141,7 +138,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Play it on Pan";
 				TargetAttributes = {
 					3789EE8923176BF9001F3188 = {
@@ -198,7 +195,6 @@
 				076A153324913A9300EC310D /* Conductor.swift in Sources */,
 				3789EE9023176BF9001F3188 /* ViewController.swift in Sources */,
 				076A152D24910DCB00EC310D /* Document.swift in Sources */,
-				077AC65C2491C775006DA5B4 /* AKSampler+moreSFZ.swift in Sources */,
 				3775B03B2507CD3C009A8BCC /* DocumentViewController.swift in Sources */,
 				076A152B24910B5400EC310D /* DocumentBrowserViewController.swift in Sources */,
 				3789EE8E23176BF9001F3188 /* AppDelegate.swift in Sources */,
@@ -253,6 +249,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -314,6 +311,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -356,7 +354,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEVELOPMENT_TEAM = ZK49THQGF7;
+				DEVELOPMENT_TEAM = MXVTFNAP49;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
@@ -378,7 +376,7 @@
 					"-lc++",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.UrbanSmash.urbanPan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmurray.urbanPan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -395,10 +393,10 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CODE_SIGN_ENTITLEMENTS = urbanPan/urbanPan.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEVELOPMENT_TEAM = ZK49THQGF7;
+				DEVELOPMENT_TEAM = MXVTFNAP49;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
@@ -420,7 +418,7 @@
 					"-lc++",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.UrbanSmash.urbanPan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmurray.urbanPan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
