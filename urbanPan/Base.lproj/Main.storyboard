@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad10_5" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,8 +16,8 @@
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -30,445 +32,288 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Urban Pan (colour)" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-IF-0Qy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Urban Pan (colour)" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-IF-0Qy">
                                 <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" tag="54" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJe-KN-1WG" userLabel="FS03">
+                            <button opaque="NO" tag="54" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJe-KN-1WG" userLabel="FS03">
                                 <rect key="frame" x="146" y="614" width="161" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="63"/>
                                 <state key="normal" title="F#3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="g9E-qF-XaX"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="zhN-qI-Sin"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="56" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iW-ym-e6E">
+                            <button opaque="NO" tag="56" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iW-ym-e6E">
                                 <rect key="frame" x="149" y="268" width="124" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="Ab3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="vID-zs-dAh"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="WNw-DM-U56"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAN-wJ-03c">
+                            <button opaque="NO" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAN-wJ-03c">
                                 <rect key="frame" x="641" y="345" width="74" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <state key="normal" title="G3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="uA1-B8-6gA"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="vuJ-2J-J8I"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G51-Sd-dei">
+                            <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G51-Sd-dei">
                                 <rect key="frame" x="641" y="627" width="100" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="61"/>
                                 <state key="normal" title="A3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="GPR-nV-3bL"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="iK2-vL-ZHh"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="58" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmj-Nr-dMx">
+                            <button opaque="NO" tag="58" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmj-Nr-dMx">
                                 <rect key="frame" x="355" y="577" width="91" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <state key="normal" title="Bb3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="ZgG-Y5-0a9"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="mJT-iH-aUJ"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-qS-pog">
+                            <button opaque="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-qS-pog">
                                 <rect key="frame" x="965" y="431" width="104" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="66"/>
                                 <state key="normal" title="B3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="8gB-rT-IRY"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="BeE-ax-qAe"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c0-2J-qKZ">
+                            <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c0-2J-qKZ">
                                 <rect key="frame" x="423" y="319" width="78" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
                                 <state key="normal" title="C4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="MS9-Mq-1oV"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="5ib-gQ-mX1"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg7-Zm-0td">
+                            <button opaque="NO" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zg7-Zm-0td">
                                 <rect key="frame" x="53" y="379" width="88" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="59"/>
                                 <state key="normal" title="D4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="9nF-2t-Ptu"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="0Gh-5q-h78"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="63" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syN-Z1-zyn">
+                            <button opaque="NO" tag="63" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syN-Z1-zyn">
                                 <rect key="frame" x="890" y="319" width="81" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="Eb4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="g2j-zP-efY"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="4a4-4X-AJQ"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="64" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-Li-IVK">
+                            <button opaque="NO" tag="64" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-Li-IVK">
                                 <rect key="frame" x="453" y="450" width="75" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="E4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="8Wc-RG-fjE"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="TAf-wx-BrM"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="65" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZV-Cg-stI">
+                            <button opaque="NO" tag="65" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZV-Cg-stI">
                                 <rect key="frame" x="797" y="672" width="75" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="F4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="q0u-Pu-Eop"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="nd3-45-Vz4"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="67" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRK-NY-lgo">
+                            <button opaque="NO" tag="67" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRK-NY-lgo">
                                 <rect key="frame" x="768" y="292" width="75" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <state key="normal" title="G4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="XN1-k6-laF"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="dQH-QG-nyz"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="68" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YS-Dj-eLu">
+                            <button opaque="NO" tag="68" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YS-Dj-eLu">
                                 <rect key="frame" x="316" y="253" width="75" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="Ab4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="XJV-nx-io3"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="kFz-Yd-s7W"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Kz-Sp-LfB">
+                            <button opaque="NO" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Kz-Sp-LfB">
                                 <rect key="frame" x="727" y="556" width="49" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="A4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="eGI-XP-gcw"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="ggg-AV-7IE"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="70" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-d9-chx">
+                            <button opaque="NO" tag="70" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-d9-chx">
                                 <rect key="frame" x="328" y="521" width="51" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Bb4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="MvY-bH-Kjz"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="dIv-QT-j6D"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tra-IW-yy8">
+                            <button opaque="NO" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tra-IW-yy8">
                                 <rect key="frame" x="863" y="465" width="54" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="B4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="uPc-vS-Y6H"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="MiF-Nb-sFD"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L46-TJ-ngC">
+                            <button opaque="NO" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L46-TJ-ngC">
                                 <rect key="frame" x="328" y="377" width="51" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="C5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="S21-F9-0yt"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="7KL-II-6Qi"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="73" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-gm-9T4">
+                            <button opaque="NO" tag="73" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbh-gm-9T4">
                                 <rect key="frame" x="694" y="474" width="51" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="C#5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="XJI-G9-3hh"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="F0R-wj-teL"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-XN-Tnd">
+                            <button opaque="NO" tag="75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPY-XN-Tnd">
                                 <rect key="frame" x="812" y="398" width="45" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Eb5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="dtV-Lp-cT7"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="N4S-22-Kv1"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-lZ-iGl">
+                            <button opaque="NO" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-lZ-iGl">
                                 <rect key="frame" x="383" y="450" width="34" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="E5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="hGq-eH-kOP"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="307-ND-PiC"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czS-Mg-6Lk">
+                            <button opaque="NO" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czS-Mg-6Lk">
                                 <rect key="frame" x="812" y="594" width="45" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="F5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="8LI-89-m9P"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="BPG-7V-djv"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="78" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkX-lu-VmU">
+                            <button opaque="NO" tag="78" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkX-lu-VmU">
                                 <rect key="frame" x="189" y="497" width="45" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="F#5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="iqL-Wi-O9Y"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="HEk-dM-hNt"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="79" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-nd-gSw">
+                            <button opaque="NO" tag="79" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-nd-gSw">
                                 <rect key="frame" x="744" y="415" width="41" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="G5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="MDo-wk-SSh"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="Kly-a1-PMv"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USZ-LX-516">
+                            <button opaque="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USZ-LX-516">
                                 <rect key="frame" x="251" y="379" width="41" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Ab5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="Ykf-cy-G6Z"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="zF9-PT-wPU"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4x-pV-zDM">
+                            <button opaque="NO" tag="81" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4x-pV-zDM">
                                 <rect key="frame" x="785" y="499" width="41" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="A5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="1vu-J8-Vhv"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="K68-Fh-9QR"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="82" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBC-j1-vWs">
+                            <button opaque="NO" tag="82" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBC-j1-vWs">
                                 <rect key="frame" x="244" y="545" width="41" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Bb5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="SJ7-uF-5Ky"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="pmf-vp-DRL"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="83" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XI2-WZ-dj5">
+                            <button opaque="NO" tag="83" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XI2-WZ-dj5">
                                 <rect key="frame" x="863" y="548" width="41" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="B5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="bFO-mn-veD"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="aab-GO-rgu"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="84" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spx-nq-omo">
+                            <button opaque="NO" tag="84" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spx-nq-omo">
                                 <rect key="frame" x="285" y="459" width="40" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="C6">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="hJA-1M-LIz"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="AIJ-yC-TSG"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iO-xb-QdL" userLabel="FN03">
+                            <button opaque="NO" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iO-xb-QdL" userLabel="FN03">
                                 <rect key="frame" x="926" y="603" width="100" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="F3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="lqx-4a-gKO"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="D6K-GL-OgL"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="61" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0u-wy-jLH">
+                            <button opaque="NO" tag="61" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0u-wy-jLH">
                                 <rect key="frame" x="583" y="472" width="81" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="C#4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="W0p-t7-E0O"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="vrh-JU-dbo"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdI-aC-0k8">
+                            <button opaque="NO" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdI-aC-0k8">
                                 <rect key="frame" x="194" y="421" width="50" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="D5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="Nrb-xc-CrY"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="eAV-rk-Yox"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" tag="66" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCp-Ze-fpK">
+                            <button opaque="NO" tag="66" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCp-Ze-fpK">
                                 <rect key="frame" x="60" y="521" width="75" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="F#4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <color key="titleColor" systemColor="lightTextColor"/>
                                 </state>
-                                <connections>
-                                    <action selector="playNote:" destination="BtK-PD-gro" eventType="touchDown" id="y6j-oC-TuJ"/>
-                                    <action selector="stopNote:" destination="BtK-PD-gro" eventType="touchUpInside" id="FUY-tN-h8c"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9V-B5-XhV" userLabel="Documents">
                                 <rect key="frame" x="466" y="699" width="123" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <color key="tintColor" systemColor="darkTextColor"/>
                                 <state key="normal" image="Black &amp; Gold Music Folder Icon" backgroundImage="Black &amp; Gold Music Folder Icon">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="dismissDocumentViewController" destination="BtK-PD-gro" eventType="touchUpInside" id="NcZ-AW-W6c"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rob-lh-tOK"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oCQ-IF-0Qy" secondAttribute="bottom" id="9Np-Wr-PS8"/>
+                            <constraint firstAttribute="trailing" secondItem="oCQ-IF-0Qy" secondAttribute="trailing" id="VLn-mn-ID6"/>
+                            <constraint firstItem="oCQ-IF-0Qy" firstAttribute="leading" secondItem="TFY-lt-6RN" secondAttribute="leading" id="ehd-uh-8G6"/>
+                            <constraint firstItem="oCQ-IF-0Qy" firstAttribute="top" secondItem="TFY-lt-6RN" secondAttribute="top" id="fIX-Zh-cvt"/>
+                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="button53" destination="7iO-xb-QdL" id="jRw-vt-bhy"/>
-                        <outlet property="button54" destination="TJe-KN-1WG" id="i4v-vL-QSC"/>
-                        <outlet property="button55" destination="eAN-wJ-03c" id="5p5-iV-5Gj"/>
-                        <outlet property="button56" destination="8iW-ym-e6E" id="0lT-1I-id6"/>
-                        <outlet property="button57" destination="G51-Sd-dei" id="RPN-bc-uH9"/>
-                        <outlet property="button58" destination="vmj-Nr-dMx" id="jdi-et-ceC"/>
-                        <outlet property="button59" destination="DY3-qS-pog" id="cSh-Ns-zNx"/>
-                        <outlet property="button60" destination="9c0-2J-qKZ" id="aIo-jW-DVV"/>
-                        <outlet property="button61" destination="N0u-wy-jLH" id="5iH-yZ-Ypg"/>
-                        <outlet property="button62" destination="zg7-Zm-0td" id="U0d-E3-bSB"/>
-                        <outlet property="button63" destination="syN-Z1-zyn" id="7lh-gh-1RJ"/>
-                        <outlet property="button64" destination="hvr-Li-IVK" id="FK1-d6-b3w"/>
-                        <outlet property="button65" destination="YZV-Cg-stI" id="f9Z-Al-oFb"/>
-                        <outlet property="button66" destination="UCp-Ze-fpK" id="sQa-tg-CR7"/>
-                        <outlet property="button67" destination="cRK-NY-lgo" id="eLa-8F-Q6M"/>
-                        <outlet property="button68" destination="8YS-Dj-eLu" id="vgN-3Q-6lq"/>
-                        <outlet property="button69" destination="7Kz-Sp-LfB" id="Haq-22-4Id"/>
-                        <outlet property="button70" destination="IXZ-d9-chx" id="Ztb-Ff-IiI"/>
-                        <outlet property="button71" destination="tra-IW-yy8" id="YFc-9D-4Mm"/>
-                        <outlet property="button72" destination="L46-TJ-ngC" id="u7P-Jd-lDY"/>
-                        <outlet property="button73" destination="Jbh-gm-9T4" id="gQj-Rs-U9P"/>
-                        <outlet property="button74" destination="RdI-aC-0k8" id="yFx-1Q-buO"/>
-                        <outlet property="button75" destination="hPY-XN-Tnd" id="EsG-Lm-0eg"/>
-                        <outlet property="button76" destination="4dn-lZ-iGl" id="wWc-94-Fl4"/>
-                        <outlet property="button77" destination="czS-Mg-6Lk" id="7zf-ZX-h0T"/>
-                        <outlet property="button78" destination="UkX-lu-VmU" id="idE-Sf-iJx"/>
-                        <outlet property="button79" destination="aeb-nd-gSw" id="AiB-AJ-Rw9"/>
-                        <outlet property="button80" destination="USZ-LX-516" id="k5c-aG-htW"/>
-                        <outlet property="button81" destination="K4x-pV-zDM" id="2qq-NK-aLL"/>
-                        <outlet property="button82" destination="YBC-j1-vWs" id="KAA-1A-e3u"/>
-                        <outlet property="button83" destination="XI2-WZ-dj5" id="mfh-kx-5hD"/>
-                        <outlet property="button84" destination="spx-nq-omo" id="dkQ-uD-i9u"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikq-B6-fzv" sceneMemberID="firstResponder"/>
             </objects>
@@ -478,5 +323,113 @@
     <resources>
         <image name="Black &amp; Gold Music Folder Icon" width="512" height="512"/>
         <image name="Urban Pan (colour)" width="1344" height="1008"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
