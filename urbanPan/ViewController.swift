@@ -40,10 +40,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func playNote(_ sender: UIButton) {
+        print("button '\(sender.titleLabel?.text ?? "unlabeled")' Note On")
         //conductor.sampler.play(noteNumber: MIDINoteNumber(sender.tag), velocity: 90)
     }
     
     @IBAction func stopNote(_ sender: UIButton) {
+        print("button '\(sender.titleLabel?.text ?? "unlabeled")' Note Off")
         //conductor.sampler.stop(noteNumber: MIDINoteNumber(sender.tag))
     }
     
